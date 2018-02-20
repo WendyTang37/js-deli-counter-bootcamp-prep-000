@@ -23,5 +23,5 @@ function currentLine(line) {
   for(let i = 0; i < line.length; i++) {
     lineString = lineString + `"${i===0?"":","} ${i+1}. ${line[i]}"`;
   }
-  
+  return lineString;
 }
