@@ -21,7 +21,7 @@ function currentLine(line) {
   }
   var lineString = "The line is currently: ";
   for(let i = 0; i < line.length; i++) {
-    lineString = lineString + `"${i===0?'':','} ${i+1}. ${line[i]}"`;
+    lineString = lineString + `${i===0?'':','} ${i+1}. ${line[i]}`;
   }
   return lineString;
 }
