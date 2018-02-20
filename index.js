@@ -6,3 +6,6 @@ function takeANumber(katzDeliLine, newCustomer) {
   return `Welcome, ${newCustomer}. You are number ${numOfPeopleInLine + 1} in line.`;
 }
 
+function nowServing() {
+  
+}
