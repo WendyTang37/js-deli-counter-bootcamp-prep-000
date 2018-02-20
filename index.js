@@ -6,4 +6,3 @@ function takeANumber(katzDeliLine, newCustomer) {
   return numOfPeopleInLine + 1;
 }
 
-function nowServing()
